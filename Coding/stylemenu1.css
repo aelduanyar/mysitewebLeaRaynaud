@@ -1,0 +1,123 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+</style>
+
+body {
+  background-color: rgb(255, 182, 193);
+  margin: 0;
+}
+
+body {
+  background-image: url("https://images.radio-canada.ca/q_auto,w_960/v1/ici-info/16x9/coucher-soleil-matane-gaspesie-ciel.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+
+h1 {
+  color: #884DA7;
+  /*background-color: green;
+  width: 50vw;*/
+}
+
+h2 {
+  color: #FD6C9E;
+}
+
+p, a {
+  font-family: 'Gloock', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gloock', serif;
+}
+
+.card-white {
+  background-color: white;
+  width: 75%;
+  border-radius: 7px;
+  box-shadow: 4px 3px 9px 2px black;
+  margin: 24px auto;
+  text-align: center;
+  padding: 24px;
+}
+
+#avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.btn-blue {
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
+  padding: 16px 16px;
+  font-weight: bold;
+  border-radius: 7px;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  transition: 1s;
+}
+
+.btn-blue:hover {
+  background-color: white;
+  color: blue;
+  transition: 1s;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline a {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 48px;
+}
+
+.list-inline a:hover {
+  color: rgba(0, 0, 0, 1.0);
+  font-size: 56px;
+  transition: 1s;
+}
+
+.list-inline {
+  padding: 0;
+}
